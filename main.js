@@ -26,7 +26,6 @@ close.addEventListener('click', function() {
 
 window.addEventListener('resize', function() {
     // We execute the same script as before
-    alert('change');
     var vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
